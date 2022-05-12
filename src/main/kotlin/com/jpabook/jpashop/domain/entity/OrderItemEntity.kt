@@ -1,6 +1,6 @@
-package com.jpabook.jpashop.domain
+package com.jpabook.jpashop.domain.entity
 
-import com.jpabook.jpashop.domain.item.ItemEntity
+import com.jpabook.jpashop.domain.entity.item.ItemEntity
 import javax.persistence.*
 
 @Entity

@@ -1,4 +1,4 @@
-package com.jpabook.jpashop.domain
+package com.jpabook.jpashop.domain.entity
 
 import javax.persistence.*
 import javax.validation.constraints.NotEmpty

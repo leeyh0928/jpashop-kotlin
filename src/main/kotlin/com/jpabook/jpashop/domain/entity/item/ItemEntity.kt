@@ -1,5 +1,6 @@
-package com.jpabook.jpashop.domain.item
+package com.jpabook.jpashop.domain.entity.item
 
+import com.jpabook.jpashop.exception.NotEnoughStockException
 import javax.persistence.*
 
 @Entity
@@ -21,6 +22,6 @@ abstract class ItemEntity(
 
     fun removeStock(quantity: Int) {
         val restStock = this.stockQuantity - quantity
-        if (restStock < 0) throw IllegalArgumentException("need more stock")
+        if (restStock < 0) throw NotEnoughStockException("need more stock")
     }
 }

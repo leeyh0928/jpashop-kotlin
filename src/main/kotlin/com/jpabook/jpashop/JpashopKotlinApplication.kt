@@ -1,6 +1,6 @@
 package com.jpabook.jpashop
 
-import com.jpabook.jpashop.domain.Address
+import com.jpabook.jpashop.domain.entity.Address
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 

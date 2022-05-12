@@ -1,4 +1,4 @@
-package com.jpabook.jpashop.domain
+package com.jpabook.jpashop.domain.entity
 
 import javax.persistence.*
 import javax.persistence.FetchType.*
@@ -7,12 +7,12 @@ import javax.persistence.FetchType.*
 @Table(name = "delivery")
 class DeliveryEntity(
     @OneToOne(mappedBy = "delivery", fetch = LAZY)
-    var order: OrderEntity,
+    var order: OrderEntity? = null,
 
     @Embedded
     var address: Address,
 
-    var status: DeliveryStatus
+    var status: DeliveryStatus? = null
 ) {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

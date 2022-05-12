@@ -1,6 +1,6 @@
-package com.jpabook.jpashop.domain
+package com.jpabook.jpashop.domain.entity
 
-import com.jpabook.jpashop.domain.OrderStatus.*
+import com.jpabook.jpashop.domain.entity.OrderStatus.*
 import java.time.LocalDateTime
 import java.time.LocalDateTime.*
 import javax.persistence.*
@@ -35,7 +35,7 @@ class OrderEntity(
     }
 
     companion object {
-        fun createOrder(member: MemberEntity, delivery: DeliveryEntity, vararg orderItems: OrderItemEntity) {
+        fun createOrder(member: MemberEntity, delivery: DeliveryEntity, vararg orderItems: OrderItemEntity): OrderEntity {
             val order = OrderEntity(member, delivery, now(), ORDER)
             member.orders.add(order)
             delivery.order = order
@@ -43,6 +43,7 @@ class OrderEntity(
                 order.addOrderItem(orderItem)
             }
 
+            return order
         }
     }
 }
