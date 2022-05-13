@@ -1,4 +1,4 @@
-package com.jpabook.jpashop.domain.usecase.item
+package com.jpabook.jpashop.domain.service.item
 
 import com.jpabook.jpashop.domain.entity.item.ItemEntity
 import com.jpabook.jpashop.domain.repository.item.ItemRepository

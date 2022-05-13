@@ -1,7 +1,6 @@
-package com.jpabook.jpashop.domain.usecase.order
+package com.jpabook.jpashop.domain.service.order
 
 import com.jpabook.jpashop.domain.entity.*
-import com.jpabook.jpashop.domain.entity.item.BookEntity
 import com.jpabook.jpashop.domain.entity.item.ItemEntity
 import com.jpabook.jpashop.domain.repository.order.OrderRepository
 import org.springframework.stereotype.Service

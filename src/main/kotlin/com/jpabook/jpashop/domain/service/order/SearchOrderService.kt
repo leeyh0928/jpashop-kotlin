@@ -1,4 +1,4 @@
-package com.jpabook.jpashop.domain.usecase.order
+package com.jpabook.jpashop.domain.service.order
 
 import com.jpabook.jpashop.domain.entity.OrderEntity
 import com.jpabook.jpashop.domain.repository.order.OrderQueryRepository

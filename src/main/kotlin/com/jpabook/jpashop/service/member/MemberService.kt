@@ -1,9 +1,9 @@
 package com.jpabook.jpashop.service.member
 
 import com.jpabook.jpashop.domain.entity.MemberEntity
-import com.jpabook.jpashop.domain.usecase.member.JoinMemberService
-import com.jpabook.jpashop.domain.usecase.member.SearchMemberService
-import com.jpabook.jpashop.domain.usecase.member.UpdateMemberService
+import com.jpabook.jpashop.domain.service.member.JoinMemberService
+import com.jpabook.jpashop.domain.service.member.SearchMemberService
+import com.jpabook.jpashop.domain.service.member.UpdateMemberService
 import com.jpabook.jpashop.service.member.dto.CreateMemberDto
 import com.jpabook.jpashop.service.member.dto.SearchMemberDto
 import com.jpabook.jpashop.service.member.dto.UpdateMemberDto

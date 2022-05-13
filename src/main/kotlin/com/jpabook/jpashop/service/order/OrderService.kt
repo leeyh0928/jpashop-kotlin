@@ -1,9 +1,9 @@
 package com.jpabook.jpashop.service.order
 
-import com.jpabook.jpashop.domain.usecase.item.SearchItemService
-import com.jpabook.jpashop.domain.usecase.member.SearchMemberService
-import com.jpabook.jpashop.domain.usecase.order.CreateOrderService
-import com.jpabook.jpashop.domain.usecase.order.SearchOrderService
+import com.jpabook.jpashop.domain.service.item.SearchItemService
+import com.jpabook.jpashop.domain.service.member.SearchMemberService
+import com.jpabook.jpashop.domain.service.order.CreateOrderService
+import com.jpabook.jpashop.domain.service.order.SearchOrderService
 import com.jpabook.jpashop.service.order.dto.CreateOrderDto
 import com.jpabook.jpashop.service.order.dto.SearchOrderDto
 import org.springframework.http.ResponseEntity

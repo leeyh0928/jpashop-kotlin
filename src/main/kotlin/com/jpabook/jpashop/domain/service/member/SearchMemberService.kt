@@ -1,4 +1,4 @@
-package com.jpabook.jpashop.domain.usecase.member
+package com.jpabook.jpashop.domain.service.member
 
 import com.jpabook.jpashop.domain.entity.MemberEntity
 import com.jpabook.jpashop.domain.repository.member.MemberRepository
