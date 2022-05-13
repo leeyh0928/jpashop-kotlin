@@ -11,4 +11,8 @@ class SearchMemberService(val memberRepository: MemberRepository) {
     fun findMembers(): List<MemberEntity> {
         return this.memberRepository.findAll()
     }
+
+    fun findById(id: Long): MemberEntity {
+        return memberRepository.findById(id).orElseThrow { IllegalArgumentException("") }
+    }
 }
