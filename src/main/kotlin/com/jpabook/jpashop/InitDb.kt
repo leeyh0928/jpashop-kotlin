@@ -65,7 +65,7 @@ class InitDb(val initService: InitService) {
         }
 
         fun createDelivery(member: MemberEntity): DeliveryEntity {
-            return DeliveryEntity(address = member.address)
+            return DeliveryEntity(address = member.address!!)
         }
     }
 }

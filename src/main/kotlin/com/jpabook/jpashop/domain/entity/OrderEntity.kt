@@ -1,8 +1,8 @@
 package com.jpabook.jpashop.domain.entity
 
-import com.jpabook.jpashop.domain.entity.OrderStatus.*
+import com.jpabook.jpashop.domain.entity.OrderStatus.ORDER
 import java.time.LocalDateTime
-import java.time.LocalDateTime.*
+import java.time.LocalDateTime.now
 import javax.persistence.*
 
 @Entity

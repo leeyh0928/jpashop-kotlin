@@ -1,7 +1,7 @@
 package com.jpabook.jpashop.domain.entity
 
 import javax.persistence.*
-import javax.persistence.FetchType.*
+import javax.persistence.FetchType.LAZY
 
 @Entity
 @Table(name = "delivery")

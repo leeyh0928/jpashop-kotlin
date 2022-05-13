@@ -9,7 +9,7 @@ class MemberEntity(
     @NotEmpty
     var name: String,
     @Embedded
-    var address: Address,
+    var address: Address? = null,
     @OneToMany(mappedBy = "member")
     var orders: MutableList<OrderEntity> = mutableListOf()
 ) {

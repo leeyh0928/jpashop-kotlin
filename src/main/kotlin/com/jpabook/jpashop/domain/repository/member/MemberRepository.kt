@@ -1,4 +1,4 @@
-package com.jpabook.jpashop.domain.repository
+package com.jpabook.jpashop.domain.repository.member
 
 import com.jpabook.jpashop.domain.entity.MemberEntity
 import org.springframework.data.jpa.repository.JpaRepository
